@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            Family Recognishion 
+        </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+   
+   <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+<center>
+    <h1>Family Face Recognishion</h1>
+    <div>
+        <h2>Family members that can be detected!</h2>
+        <h4>Son</h4>
+        <br>
+        <h4>Dad</h4>
+        <br>
+        <h4>Mom</h4>
+        <br>
+        <h4>Dog</h4>
+    </div>
+<br><br>
+    <h3>Webcam</h3>
+    <div id="Camera"></div>
+    <br>
+    <button id="capture" onclick="capture()">Capture Image</button>
+    <br>
+    <button id="identify" onclick="identify()">Identify</button>
+    <br><br>
+    <div id="result"></div>
+    <div>
+        <h4>Family Member: <span id="family"></span></h4>
+        <h4>Accuracy: <span id="family"></span></h4>
+    </div>
+</center>
+
+
+    </body>
+    <script src="main.js"></script>
+</html>

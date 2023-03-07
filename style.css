@@ -1,0 +1,20 @@
+body {
+
+background-color: blueviolet;
+
+
+}
+
+h4 {
+
+border-color: crimson;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: lightseagreen;
+font-size: larger;
+
+}
+
+#identify, #capture {
+
+background-color: lightgreen;
+}
